@@ -29,7 +29,6 @@ function draw() {
   if (keyWentDown(UP_ARROW)) {
     writeStock();
     dog.addImage("happy", happydog_img);
-    dog.changeImage("happy");
   }
 
   drawSprites();
